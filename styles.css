@@ -1,4 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 * {
     margin: 0;
     padding: 0;
+}
+
+:root {
+
+    /*========== Colors ==========*/
+
+    --primary-color: #4993FA;
+    --secondary-color: #fff;
+    --text-color: #000;
+
+
+    --body-font: 'Poppins', sans-serif;
+
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: var(--text-color);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 5%;
+    font-family: var(--body-font);
+    background-color: var(--secondary-color);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+ul li a {
+    transition: 0.3s ease 0s;
+}
+
+ul li a:hover {
+    color: var(--primary-color);
+}
+
+.Logo {
+    margin-right: auto;
+    cursor: default;
+}
+
+button {
+    font-size: var(--normal-font-size);
+    border: none;
+    padding: 6px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: var(--text-color);
 }
