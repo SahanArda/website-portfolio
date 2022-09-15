@@ -16,7 +16,7 @@
 
     --body-font: 'Poppins', sans-serif;
 
-    --big-font-size: 2rem;
+    --big-font-size: 2.5rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1.125rem;
@@ -80,3 +80,54 @@ button:hover {
     background-color: var(--text-color);
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    min-height: 60vh;
+    max-width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.hero-img {
+    max-width: 50%;
+    background-color: white;
+}
+
+.hero-img img {
+    max-width: 100%;
+    padding: 2px;
+    background-color: white;
+    border-radius: 10000px;
+    box-shadow: 0 4px 8px 0 #fff, 0 6px 20px 0 #000000b3;
+    border: 2px solid white;
+}
+
+.desc {
+    background-color: #fff;
+    width: fit-content;
+}
+
+.desc h1 {
+    font-size: var(--big-font-size);
+    font-family: var(--body-font);
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: default;
+}
+
+@media (max-width: 1200px){
+    .container {
+        flex-direction: column-reverse;
+    }
+}
