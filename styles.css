@@ -9,8 +9,8 @@
 
     /*========== Colors ==========*/
 
-    --primary-color: #4993FA;
-    --secondary-color: #fff;
+    --primary-color-light: #4993FA;
+    --secondary-color-light: #fff;
     --text-color: #000;
 
 
@@ -26,7 +26,7 @@
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-light);
 }
 
 li, a {
@@ -41,7 +41,7 @@ nav {
     align-items: center;
     padding: 20px 5%;
     font-family: var(--body-font);
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-light);
 }
 
 nav ul {
@@ -57,7 +57,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: var(--primary-color);
+    color: var(--primary-color-light);
 }
 
 .Logo {
@@ -71,7 +71,7 @@ button {
     padding: 6px 20px;
     border-radius: 15px;
     cursor: pointer;
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-light);
     color: #fff;
     transition: 0.3s ease 0s;
 }
