@@ -139,7 +139,7 @@ button:hover {
 .about {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: white;
     min-height: 100vh;
 }
@@ -155,29 +155,25 @@ button:hover {
 .info h1 {
     font-size: var(--big-font-size);
     text-align: flex-start;
-    margin-bottom: 25px;
+    margin-bottom: 90px;
     cursor: default;
 }
 
-.info p, ol{
+.info p {
     font-size: var(--normal-font-size);
     border: 2px solid var(--secondary-color-light);
     box-shadow: 0 4px 8px 0 #fff, 0 6px 20px 0 #000000b3;
     border-radius: 20px;
     padding: 10px;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     transition: 0.3s ease 0s;
-}
-
-.info ol{
-    padding: 0 50px;
 }
 
 .info li {
     list-style: circle;
 }
 
-.info p:hover, .info ol:hover {
+.info p:hover{
     transform: scale(1.05);
 }
 
