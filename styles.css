@@ -32,6 +32,7 @@ html {
 body {
     background-color: var(--secondary-color-light);
     font-family: var(--body-font);
+
 }
 
 li, a {
@@ -45,6 +46,7 @@ nav {
     justify-content: flex-end;
     align-items: center;
     padding: 20px 5%;
+    font-family: var(--body-font);
     background-color: var(--secondary-color-light);
 }
 
@@ -77,6 +79,7 @@ button {
     cursor: pointer;
     background-color: var(--primary-color-light);
     color: var(--secondary-color-light);
+    color: #fff;
     transition: 0.3s ease 0s;
 }
 
