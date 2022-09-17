@@ -11,7 +11,7 @@
 
     --primary-color-light: #4993FA;
     --secondary-color-light: #fff;
-    --text-color: #000;
+    --text-color-light: #000;
 
 
     --body-font: 'Poppins', sans-serif;
@@ -32,13 +32,13 @@ html {
 body {
     background-color: var(--secondary-color-light);
     font-family: var(--body-font);
-
+    cursor: default;
 }
 
 li, a {
     text-decoration: none;
     list-style: none;
-    color: var(--text-color);
+    color: var(--text-color-light);
 }
 
 nav {
@@ -68,7 +68,6 @@ ul li a:hover {
 
 .Logo {
     margin-right: auto;
-    cursor: default;
 }
 
 button {
@@ -79,24 +78,24 @@ button {
     cursor: pointer;
     background-color: var(--primary-color-light);
     color: var(--secondary-color-light);
-    color: #fff;
+    color: var(--secondary-color-light);
     transition: 0.3s ease 0s;
 }
 
 button:hover {
-    background-color: var(--text-color);
+    background-color: var(--text-color-light);
 }
 
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    /* background-color: white; */
     min-height: 100vh;
 }
 
 .container {
-    background-color: white;
+    /* background-color: blue; */
     min-height: 60vh;
     max-width: 60vw;
     display: flex;
@@ -108,7 +107,7 @@ button:hover {
 
 .hero-img {
     max-width: 50%;
-    background-color: white;
+    /* background-color: white; */
 }
 
 .hero-img img {
@@ -121,7 +120,7 @@ button:hover {
 }
 
 .desc {
-    background-color: white;
+    /* background-color: white; */
     width: fit-content;
     font-size: var(--normal-font-size);
 }
@@ -130,7 +129,6 @@ button:hover {
     font-size: var(--big-font-size);
     text-align: flex-start;
     margin-bottom: 15px;
-    cursor: default;
 }
 
 @media (max-width: 1200px){
@@ -143,12 +141,12 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background-color: white;
+    /* background-color: white; */
     min-height: 100vh;
 }
 
 .info {
-    background-color: white;
+    /* background-color: red; */
     width: fit-content;
     font-size: var(--normal-font-size);
     padding: 10px;
@@ -159,7 +157,6 @@ button:hover {
     font-size: var(--big-font-size);
     text-align: flex-start;
     margin-bottom: 90px;
-    cursor: default;
 }
 
 .info p {
@@ -172,14 +169,17 @@ button:hover {
     transition: 0.3s ease 0s;
 }
 
-.info li {
-    list-style: circle;
-}
-
 .info p:hover{
     transform: scale(1.05);
 }
 
-.about-me {
+.skills {
+    display: flex;
+    justify-content: center;
     align-items: flex-start;
+    background-color: red;
+    min-height: 100vh;
 }
+
+
+
