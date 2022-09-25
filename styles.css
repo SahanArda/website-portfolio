@@ -85,6 +85,8 @@ button:hover {
   background-color: var(--text-color-light);
 }
 
+/* home page */
+
 .hero {
   display: flex;
   justify-content: center;
@@ -136,6 +138,8 @@ button:hover {
   }
 }
 
+/* about section */
+
 .about {
   display: flex;
   justify-content: center;
@@ -152,9 +156,9 @@ button:hover {
 }
 
 .info h1 {
-  font-size: var(--big-font-size);
-  text-align: flex-start;
-  margin-bottom: 90px;
+    font-size: var(--big-font-size);
+    text-align: flex-start;
+    margin-bottom: 90px;
 }
 
 .info p {
@@ -171,17 +175,24 @@ button:hover {
   transform: scale(1.05);
 }
 
+/* skills section */
+
 .skills {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: red;
-  min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: red;
 }
 
-.cards {
-  color: var(--primary-color-light);
-  background-image: url(https://images.unsplash.com/photo-1624953587687-daf255b6b80a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
-  background-size: cover;
-  padding: 2rem 0 0;
+.skill-info {
+    width: fit-content;
+    font-size: var(--normal-font-size);
+    padding: 10px;
+}
+
+.skill-info h1 {
+    font-size: var(--big-font-size);
+    text-align: flex-start;
+    margin-bottom: 90px;
 }
