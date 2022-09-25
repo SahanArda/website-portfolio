@@ -196,3 +196,13 @@ button:hover {
     text-align: flex-start;
     margin-bottom: 90px;
 }
+
+/* projects section */
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: purple;
+}
