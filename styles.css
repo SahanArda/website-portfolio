@@ -96,7 +96,7 @@ button:hover {
 }
 
 .container {
-    background-color: white;
+    background-color: blue;
     min-height: 60vh;
     max-width: 60vw;
     display: flex;
