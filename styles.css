@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: var(--body-font);
 }
 
 :root {
@@ -29,7 +30,6 @@ html {
 
 body {
   background-color: var(--secondary-color-light);
-  font-family: var(--body-font);
   cursor: default;
 }
 
@@ -96,7 +96,7 @@ button:hover {
 }
 
 .container {
-  background-color: blue;
+  /* background-color: blue; */
   min-height: 60vh;
   max-width: 60vw;
   display: flex;
@@ -156,9 +156,9 @@ button:hover {
 }
 
 .info h1 {
-    font-size: var(--big-font-size);
-    text-align: flex-start;
-    margin-bottom: 90px;
+  font-size: var(--big-font-size);
+  text-align: flex-start;
+  margin-bottom: 90px;
 }
 
 .info p {
@@ -178,31 +178,72 @@ button:hover {
 /* skills section */
 
 .skills {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-    background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: red;
 }
 
 .skill-info {
-    width: fit-content;
-    font-size: var(--normal-font-size);
-    padding: 10px;
+  width: fit-content;
+  font-size: var(--normal-font-size);
+  padding: 10px;
 }
 
 .skill-info h1 {
-    font-size: var(--big-font-size);
-    text-align: flex-start;
-    margin-bottom: 90px;
+  font-size: var(--big-font-size);
+  text-align: flex-start;
+  margin-bottom: 90px;
 }
 
 /* projects section */
 
 .projects {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-    background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.projects h1 {
+  font-size: var(--big-font-size);
+  text-align: flex-start;
+  justify-content: left;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 80vw;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  height: fit-content;
+  margin: 30px;
+  font-size: var(--small-font-size);
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 #fff, 0 6px 20px 0 #000000b3;
+  transition: 0.3s ease 0s;
+}
+
+.cards:hover {
+  transform: scale(1.04);
+}
+.cards h2,
+p {
+  padding: 5px 10px;
+}
+
+.projects img {
+  height: 250px;
+}
+
+#projects-container {
+  flex-direction: column;
+  min-width: 90vw;
 }
