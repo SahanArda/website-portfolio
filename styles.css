@@ -91,7 +91,6 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: white; */
   min-height: 100vh;
 }
 
@@ -108,7 +107,6 @@ button:hover {
 
 .hero-img {
   max-width: 50%;
-  /* background-color: white; */
 }
 
 .hero-img img {
@@ -121,7 +119,6 @@ button:hover {
 }
 
 .desc {
-  /* background-color: white; */
   width: fit-content;
   font-size: var(--normal-font-size);
 }
@@ -185,6 +182,10 @@ button:hover {
   background-color: red;
 }
 
+#skill-container {
+    flex-direction: column;
+}
+
 .skill-info {
   width: fit-content;
   font-size: var(--normal-font-size);
@@ -194,9 +195,32 @@ button:hover {
 
 .skill-info h1 {
   font-size: var(--big-font-size);
-  text-align: flex-start;
-  margin-bottom: 90px;
+  margin-bottom: 20px;
 }
+
+.skill-info p {
+    text-align:left;
+}
+
+.skill-img {
+    display: flex;
+    background-color: pink;
+}
+
+.skill-img img{
+    height: 100px;
+    border: 2px solid black;
+    width: 100px;
+    border-radius: 60px;
+    padding: 5px;
+    margin: 2px;
+    transition: 0.3s ease 0s;
+}
+
+.skill-img img:hover {
+    transform: scale(1.07);
+}
+
 
 /* projects section */
 
