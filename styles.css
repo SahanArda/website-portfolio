@@ -95,7 +95,7 @@ button:hover {
 }
 
 .container {
-  background-color: blue;
+  /* background-color: blue; */
   min-height: 60vh;
   max-width: 60vw;
   display: flex;
@@ -113,7 +113,7 @@ button:hover {
   max-width: 100%;
   padding: 2px;
   background-color: var(--secondary-color-light);
-  border-radius: 10000px;
+  border-radius: 1000px;
   box-shadow: 0 4px 8px 0 #fff, 0 6px 20px 0 #000000b3;
   border: 2px solid var(--secondary-color-light);
 }
@@ -149,7 +149,7 @@ button:hover {
   width: fit-content;
   font-size: var(--normal-font-size);
   padding: 10px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .info h1 {
@@ -177,25 +177,26 @@ button:hover {
 .skills {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   min-height: 100vh;
-  background-color: red;
-}
-
-#skill-container {
-    flex-direction: column;
+  /* background-color: red; */
 }
 
 .skill-info {
   width: fit-content;
   font-size: var(--normal-font-size);
   padding: 10px;
-  background-color: purple;
+  /* background-color: purple; */
+}
+
+#skill-container {
+    min-width: 80vw;
 }
 
 .skill-info h1 {
   font-size: var(--big-font-size);
   margin-bottom: 20px;
+  margin-left: 6px;
 }
 
 .skill-info p {
@@ -204,16 +205,19 @@ button:hover {
 
 .skill-img {
     display: flex;
-    background-color: pink;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+    /* background-color: pink; */
 }
 
 .skill-img img{
     height: 100px;
-    border: 2px solid black;
-    width: 100px;
+    max-width: 100px;
     border-radius: 60px;
     padding: 5px;
-    margin: 2px;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 #fff, 0 6px 20px 0 #000000b3;
     transition: 0.3s ease 0s;
 }
 
