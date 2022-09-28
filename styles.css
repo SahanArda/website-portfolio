@@ -33,6 +33,13 @@ body {
   cursor: default;
 }
 
+.contact p {
+    position: fixed;
+    left: 86.5vw;
+    top: 70vh;
+    transform: rotate(90deg);
+}
+
 li,
 a {
   text-decoration: none;
