@@ -119,13 +119,13 @@ button:hover {
 }
 
 .desc {
+  text-align: flex-start;
   width: fit-content;
   font-size: var(--normal-font-size);
 }
 
 .desc h1 {
   font-size: var(--big-font-size);
-  text-align: flex-start;
   margin-bottom: 15px;
 }
 
@@ -140,7 +140,7 @@ button:hover {
 .about {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   min-height: 100vh;
 }
 
@@ -149,7 +149,6 @@ button:hover {
   width: fit-content;
   font-size: var(--normal-font-size);
   padding: 10px;
-  /* background-color: red; */
 }
 
 .info h1 {
@@ -183,10 +182,9 @@ button:hover {
 }
 
 .skill-info {
-  width: fit-content;
+  max-width: 600px;
   font-size: var(--normal-font-size);
   padding: 10px;
-  /* background-color: purple; */
 }
 
 #skill-container {
@@ -194,13 +192,10 @@ button:hover {
 }
 
 .skill-info h1 {
+  /* text-align: center; */
   font-size: var(--big-font-size);
   margin-bottom: 20px;
   margin-left: 6px;
-}
-
-.skill-info p {
-  text-align: left;
 }
 
 .skill-img {
@@ -230,7 +225,7 @@ button:hover {
 .projects {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   min-height: 100vh;
 }
 
@@ -262,6 +257,7 @@ button:hover {
 .cards:hover {
   transform: scale(1.04);
 }
+
 .cards h2,
 p {
   padding: 5px 10px;
@@ -275,3 +271,31 @@ p {
   flex-direction: column;
   min-width: 90vw;
 }
+
+/* contact */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.contact h1 {
+    font-size: var(--big-font-size);
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.contact button {
+    margin-top: 25px;
+}
+
+.contact-info {
+    max-width: 600px;
+    font-size: var(--normal-font-size);
+    padding: 10px;
+    text-align: center;
+    /* background-color: red; */
+  }
