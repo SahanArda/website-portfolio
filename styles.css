@@ -154,7 +154,7 @@ button:hover {
 .info h1 {
   font-size: var(--big-font-size);
   text-align: flex-start;
-  margin-bottom: 90px;
+  margin-bottom: 30px;
 }
 
 .info p {
