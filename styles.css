@@ -33,13 +33,6 @@ body {
   cursor: default;
 }
 
-.contact p {
-    position: fixed;
-    left: 86.5vw;
-    top: 70vh;
-    transform: rotate(90deg);
-}
-
 li,
 a {
   text-decoration: none;
@@ -197,7 +190,7 @@ button:hover {
 }
 
 #skill-container {
-    min-width: 80vw;
+  min-width: 80vw;
 }
 
 .skill-info h1 {
@@ -207,31 +200,30 @@ button:hover {
 }
 
 .skill-info p {
-    text-align:left;
+  text-align: left;
 }
 
 .skill-img {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 500px;
-    /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 500px;
+  /* background-color: pink; */
 }
 
-.skill-img img{
-    height: 100px;
-    max-width: 100px;
-    border-radius: 60px;
-    padding: 5px;
-    margin: 15px;
-    box-shadow: 0 4px 8px 0 #fff, 0 6px 20px 0 #000000b3;
-    transition: 0.3s ease 0s;
+.skill-img img {
+  height: 100px;
+  max-width: 100px;
+  border-radius: 60px;
+  padding: 5px;
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 #fff, 0 6px 20px 0 #000000b3;
+  transition: 0.3s ease 0s;
 }
 
 .skill-img img:hover {
-    transform: scale(1.07);
+  transform: scale(1.07);
 }
-
 
 /* projects section */
 
