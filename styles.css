@@ -95,7 +95,7 @@ button:hover {
 }
 
 .container {
-  /* background-color: blue; */
+  background-color: blue;
   min-height: 60vh;
   max-width: 60vw;
   display: flex;
@@ -277,7 +277,7 @@ p {
 .contact {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     min-height: 100vh;
 }
 
@@ -297,5 +297,9 @@ p {
     font-size: var(--normal-font-size);
     padding: 10px;
     text-align: center;
-    /* background-color: red; */
+    background-color: red;
   }
+
+#contact-container {
+    min-height: 40vh;
+}
