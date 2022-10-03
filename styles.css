@@ -119,13 +119,13 @@ button:hover {
 }
 
 .desc {
+  text-align: flex-start;
   width: fit-content;
   font-size: var(--normal-font-size);
 }
 
 .desc h1 {
   font-size: var(--big-font-size);
-  text-align: flex-start;
   margin-bottom: 15px;
 }
 
@@ -140,22 +140,20 @@ button:hover {
 .about {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   min-height: 100vh;
 }
 
 .info {
-  /* background-color: red; */
   width: fit-content;
   font-size: var(--normal-font-size);
   padding: 10px;
-  /* background-color: red; */
 }
 
 .info h1 {
   font-size: var(--big-font-size);
   text-align: flex-start;
-  margin-bottom: 90px;
+  margin-bottom: 30px;
 }
 
 .info p {
@@ -179,18 +177,16 @@ button:hover {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  /* background-color: red; */
 }
 
 .skill-info {
-  width: fit-content;
+  max-width: 600px;
   font-size: var(--normal-font-size);
   padding: 10px;
-  /* background-color: purple; */
 }
 
 #skill-container {
-    min-width: 80vw;
+  min-width: 80vw;
 }
 
 .skill-info h1 {
@@ -199,39 +195,33 @@ button:hover {
   margin-left: 6px;
 }
 
-.skill-info p {
-    text-align:left;
-}
-
 .skill-img {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 500px;
-    /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 500px;
 }
 
-.skill-img img{
-    height: 100px;
-    max-width: 100px;
-    border-radius: 60px;
-    padding: 5px;
-    margin: 15px;
-    box-shadow: 0 4px 8px 0 #fff, 0 6px 20px 0 #000000b3;
-    transition: 0.3s ease 0s;
+.skill-img img {
+  height: 100px;
+  max-width: 100px;
+  border-radius: 60px;
+  padding: 5px;
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 #fff, 0 6px 20px 0 #000000b3;
+  transition: 0.3s ease 0s;
 }
 
 .skill-img img:hover {
-    transform: scale(1.07);
+  transform: scale(1.07);
 }
-
 
 /* projects section */
 
 .projects {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   min-height: 100vh;
 }
 
@@ -263,6 +253,7 @@ button:hover {
 .cards:hover {
   transform: scale(1.04);
 }
+
 .cards h2,
 p {
   padding: 5px 10px;
@@ -275,4 +266,35 @@ p {
 #projects-container {
   flex-direction: column;
   min-width: 90vw;
+}
+
+/* contact */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact h1 {
+  font-size: var(--big-font-size);
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.contact button {
+  margin-top: 25px;
+}
+
+.contact-info {
+  max-width: 600px;
+  font-size: var(--normal-font-size);
+  padding: 10px;
+  text-align: center;
+}
+
+#contact-container {
+  min-height: 40vh;
 }
