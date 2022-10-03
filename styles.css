@@ -119,14 +119,14 @@ button:hover {
 }
 
 .desc {
-  text-align: flex-start;
-  width: fit-content;
+  max-width: fit-content;
   font-size: var(--normal-font-size);
 }
 
 .desc h1 {
   font-size: var(--big-font-size);
   margin-bottom: 15px;
+  margin-left: 10px;
 }
 
 @media (max-width: 1200px) {
