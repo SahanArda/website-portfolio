@@ -95,7 +95,7 @@ button:hover {
 }
 
 .container {
-  background-color: blue;
+  /* background-color: blue; */
   min-height: 60vh;
   max-width: 60vw;
   display: flex;
@@ -145,7 +145,6 @@ button:hover {
 }
 
 .info {
-  /* background-color: red; */
   width: fit-content;
   font-size: var(--normal-font-size);
   padding: 10px;
@@ -178,7 +177,6 @@ button:hover {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  /* background-color: red; */
 }
 
 .skill-info {
@@ -192,7 +190,6 @@ button:hover {
 }
 
 .skill-info h1 {
-  /* text-align: center; */
   font-size: var(--big-font-size);
   margin-bottom: 20px;
   margin-left: 6px;
@@ -203,7 +200,6 @@ button:hover {
   justify-content: center;
   flex-wrap: wrap;
   max-width: 500px;
-  /* background-color: pink; */
 }
 
 .skill-img img {
@@ -275,31 +271,30 @@ p {
 /* contact */
 
 .contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .contact h1 {
-    font-size: var(--big-font-size);
-    text-align: center;
-    justify-content: center;
-    padding-bottom: 20px;
+  font-size: var(--big-font-size);
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 .contact button {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .contact-info {
-    max-width: 600px;
-    font-size: var(--normal-font-size);
-    padding: 10px;
-    text-align: center;
-    background-color: red;
-  }
+  max-width: 600px;
+  font-size: var(--normal-font-size);
+  padding: 10px;
+  text-align: center;
+}
 
 #contact-container {
-    min-height: 40vh;
+  min-height: 40vh;
 }
