@@ -305,7 +305,7 @@ p {
   color: var(--text-color-light);
 }
 
-.icons ul li .fa:hover {
+.icons ul li a:hover .fa {
   color: var(--secondary-color-light);
 }
 
@@ -329,7 +329,7 @@ p {
 }
 
 .icons ul li:nth-child(2) a:hover {
-  background-color: #000;
+  background-color: var(--text-color-light);
 }
 
 .icons ul li:nth-child(3) a:hover {
