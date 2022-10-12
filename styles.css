@@ -46,7 +46,6 @@ nav {
   align-items: center;
   padding: 20px 5%;
   font-family: var(--body-font);
-  background-color: var(--secondary-color-light);
 }
 
 nav ul {
@@ -76,7 +75,6 @@ button {
   border-radius: 15px;
   cursor: pointer;
   background-color: var(--primary-color-light);
-  color: var(--secondary-color-light);
   color: var(--secondary-color-light);
   transition: 0.3s ease 0s;
 }
@@ -284,15 +282,58 @@ p {
   padding-bottom: 20px;
 }
 
-.contact button {
-  margin-top: 25px;
-}
-
 .contact-info {
   max-width: 600px;
   font-size: var(--normal-font-size);
   padding: 10px;
   text-align: center;
+}
+
+.icons ul{
+  display: flex;
+  justify-content: center;
+}
+
+.icons ul li {
+  margin: 0px 15px;
+  margin-top: 20px;
+}
+
+.icons ul li .fa {
+  font-size: 30px;
+  line-height: 60px;
+  color: var(--text-color-light);
+}
+
+.icons ul li .fa:hover {
+  color: var(--secondary-color-light);
+}
+
+.icons ul li a {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  transition: 0.4s;
+  box-shadow: 0 4px 8px 0 #fff, 0 6px 20px 0 #000000b3;
+}
+
+.icons ul li a:hover {
+  transform: translate(0, -10px);
+}
+
+.icons ul li:nth-child(1) a:hover {
+  background-color: var(--primary-color-light);
+}
+
+.icons ul li:nth-child(2) a:hover {
+    background-color: #000;
+}
+
+.icons ul li:nth-child(3) a:hover {
+  background-color: #0A66C2;
 }
 
 #contact-container {
