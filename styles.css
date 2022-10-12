@@ -289,7 +289,7 @@ p {
   text-align: center;
 }
 
-.icons ul{
+.icons ul {
   display: flex;
   justify-content: center;
 }
@@ -329,11 +329,11 @@ p {
 }
 
 .icons ul li:nth-child(2) a:hover {
-    background-color: #000;
+  background-color: #000;
 }
 
 .icons ul li:nth-child(3) a:hover {
-  background-color: #0A66C2;
+  background-color: #0a66c2;
 }
 
 #contact-container {
