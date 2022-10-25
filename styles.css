@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: var(--body-font);
-}
-
 :root {
   /*========== Colors ==========*/
 
@@ -22,6 +16,16 @@
   --normal-font-size: 0.938rem;
   --small-font-size: 0.813rem;
   --smaller-font-size: 0.75rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+}
+
+.display-flex { 
+  display: flex;
 }
 
 html {
@@ -41,15 +45,10 @@ a {
 }
 
 nav {
-  display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 20px 5%;
   font-family: var(--body-font);
-}
-
-nav ul {
-  display: flex;
 }
 
 nav ul li {
@@ -86,17 +85,14 @@ button:hover {
 /* home page */
 
 .hero {
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
 .container {
-  /* background-color: blue; */
   min-height: 60vh;
   max-width: 60vw;
-  display: flex;
   justify-content: center;
   align-items: center;
   gap: 3rem;
@@ -136,7 +132,6 @@ button:hover {
 /* about section */
 
 .about {
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -171,7 +166,6 @@ button:hover {
 /* skills section */
 
 .skills {
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -194,7 +188,6 @@ button:hover {
 }
 
 .skill-img {
-  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 500px;
@@ -217,7 +210,6 @@ button:hover {
 /* projects section */
 
 .projects {
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -230,14 +222,12 @@ button:hover {
 }
 
 .card-container {
-  display: flex;
   flex-wrap: wrap;
   min-width: 80vw;
   justify-content: center;
 }
 
 .cards {
-  display: flex;
   flex-direction: column;
   max-width: 300px;
   height: fit-content;
@@ -269,7 +259,6 @@ p {
 /* contact */
 
 .contact {
-  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 85vh;
@@ -290,7 +279,6 @@ p {
 }
 
 .icons ul {
-  display: flex;
   justify-content: center;
 }
 
@@ -343,7 +331,6 @@ p {
 /* footer */
 
 footer {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
